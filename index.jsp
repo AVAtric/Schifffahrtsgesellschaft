@@ -21,16 +21,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item ${param.menu=='fahrten' ? 'active' : ''}"">
+                <li class="nav-item ${param.menu=='fahrten' ? 'active' : ''}">
                     <a class="nav-link href="index.jsp?menu=fahrten">Fahrten</a>
                 </li>
-                <li class="nav-item ${param.menu=='buchen' ? 'active' : ''}"">
+                <li class="nav-item ${param.menu=='buchen' ? 'active' : ''}">
                     <a class="nav-link" href="index.jsp?menu=buchen">Fahrt buchen</a>
                 </li>
-                <li class="nav-item ${param.menu=='logbuch' ? 'active' : ''}"">
-                    <a class="nav-link" href="index.jsp?menu=logbuch">Logbücher</a>
+                <li class="nav-item ${param.menu=='logbuch' ? 'active' : ''}">
+                    <a class="nav-link" href="index.jsp?menu=logbuch">Logb&uuml;cher</a>
                 </li>
-                <li class="nav-item ${param.menu=='passagiere' ? 'active' : ''}"">
+                <li class="nav-item ${param.menu=='passagiere' ? 'active' : ''}">
                     <a class="nav-link" href="index.jsp?menu=passagiere">Passagierliste</a>
                 </li>
             </ul>
