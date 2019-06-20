@@ -48,7 +48,7 @@
 
         <div class="form-group">
             <label for="passagennr">Passage</label>
-            <select class="form-control" id="passagennr">
+            <select class="form-control" id="passagennr" name="passagennr">
                 <c:forEach var="passage" begin="0" items="${passagen.rows}">
                     <option value="${passage.passagennr}">${passage.abfahrtshafen} - ${passage.zielhafen} (${passage.abfahrtszeit} - ${passage.ankunftszeit})</option>
                 </c:forEach>
@@ -57,7 +57,7 @@
 
         <div class="form-group">
             <label for="klasse">Klasse</label>
-            <select class="form-control" id="klasse">
+            <select class="form-control" id="klasse" name="klasse">
                 <option value="A">A</option>
                 <option value="B">B</option>
                 <option value="C">C</option>

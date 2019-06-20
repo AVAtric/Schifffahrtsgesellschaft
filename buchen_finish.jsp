@@ -21,7 +21,7 @@
         <sql:param value="${param.klasse}"/>
     </sql:update>
 
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid mt-4">
         <div class="container">
             <h1 class="display-4">Buchung abgeschlossen</h1>
             <p class="lead">F&uuml;r den Passagier ${param.Vorname} ${param.Nachname} wurde die Buchung erfolgreich durchgef&uuml;rt.</p>
