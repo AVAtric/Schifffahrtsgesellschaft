@@ -25,7 +25,7 @@
                 <li class="nav-item ${param.menu=='fahrten' ? 'active' : ''}">
                     <a class="nav-link" href="index.jsp?menu=fahrten">Fahrten</a>
                 </li>
-                <li class="nav-item ${param.menu=='buchen' or param.menu=='buchen_pass' ? 'active' : ''}">
+                <li class="nav-item ${param.menu=='buchen' or param.menu=='buchen_pass' or param.menu=='buchen_finish' ? 'active' : ''}">
                     <a class="nav-link" href="index.jsp?menu=buchen">Passagiere anlegen</a>
                 </li>
                 <li class="nav-item ${param.menu=='logbuch' ? 'active' : ''}">

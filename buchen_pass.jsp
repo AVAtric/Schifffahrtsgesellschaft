@@ -39,24 +39,6 @@
         <sql:param value="${param.SVNr}"/>
     </sql:update>
 
-    <c:if test="${insertPerson == 1 && insertPassagier == 1}">
-        <div class="alert alert-success alert-dismissible fade show" role="alert">
-            Es wurde erfolgreich ein Passagier hinzugef&uuml;gt!
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
-    </c:if>
-
-    <c:if test="${insertPerson != 1 && insertPassagier != 1}">
-        <div class="alert alert-danger alert-dismissible fade show" role="alert">
-            Es ist ein Fehler beim Speichern aufgetreten!
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
-    </c:if>
-
     <form action="index.jsp" method="post" class="mb-4">
         <input type="hidden" name="menu" id="menu" value="buchen_finish"/>
         <input type="hidden" name="passagiernr" id="passagiernr" value="${param.passagiernr}"/>
