@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
 </head>
 <body class="d-flex flex-column h-100">
 <header>
@@ -24,7 +25,7 @@
                 <li class="nav-item ${param.menu=='fahrten' ? 'active' : ''}">
                     <a class="nav-link" href="index.jsp?menu=fahrten">Fahrten</a>
                 </li>
-                <li class="nav-item ${param.menu=='buchen' ? 'active' : ''}">
+                <li class="nav-item ${param.menu=='buchen' or param.menu=='buchen_pass' ? 'active' : ''}">
                     <a class="nav-link" href="index.jsp?menu=buchen">Passagiere anlegen</a>
                 </li>
                 <li class="nav-item ${param.menu=='logbuch' ? 'active' : ''}">
@@ -61,5 +62,8 @@
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-datepicker.min.js"></script>
+<script src="js/bootstrap-datepicker.de.min.js"></script>
+<script src="js/bootstrap-datepicker.en-GB.min.js"></script>
 </body>
 </html>
