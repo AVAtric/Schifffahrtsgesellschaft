@@ -3,7 +3,7 @@
 <%@ page contentType="text/html; charset=iso-8859-1" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
-<html lang="de">
+    <html class="h-100" lang="de">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,17 +15,17 @@
 <body class="d-flex flex-column h-100">
 <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Fahrtenverwaltung</a>
+        <a class="navbar-brand" href="index.jsp">Fahrtenverwaltung</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item ${param.menu=='fahrten' ? 'active' : ''}">
-                    <a class="nav-link href="index.jsp?menu=fahrten">Fahrten</a>
+                    <a class="nav-link" href="index.jsp?menu=fahrten">Fahrten</a>
                 </li>
                 <li class="nav-item ${param.menu=='buchen' ? 'active' : ''}">
-                    <a class="nav-link" href="index.jsp?menu=buchen">Fahrt buchen</a>
+                    <a class="nav-link" href="index.jsp?menu=buchen">Passagiere anlegen</a>
                 </li>
                 <li class="nav-item ${param.menu=='logbuch' ? 'active' : ''}">
                     <a class="nav-link" href="index.jsp?menu=logbuch">Logb&uuml;cher</a>

@@ -26,12 +26,13 @@
     <tbody>
     <c:forEach var="passage" begin="0" items="${passagen.rows}">
     <tr>
-        <th scope="row">{passage.passagennr}</th>
-        <td>{passage.abfahrtshafen}</td>
-        <td>{passage.zielhafen}</td>
-        <td>{passage.abfahrtszeit}</td>
-        <td>{passage.ankunftszeit}</td>
+        <th scope="row">${passage.passagennr}</th>
+        <td>${passage.abfahrtshafen}</td>
+        <td>${passage.zielhafen}</td>
+        <td>${passage.abfahrtszeit}</td>
+        <td>${passage.ankunftszeit}</td>
     </tr>
     </c:forEach>
     </tbody>
 </table>
+    </div>
